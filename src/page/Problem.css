@@ -1,0 +1,49 @@
+#problem {
+    padding-top: 8.3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+#problems {
+    width: 100%;
+    padding: 14.84vh 0 6.45vh;
+}
+#problem_selection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2.25vh;
+}
+
+#problem_card_selected {
+    height: 39.47vh;
+    margin: 0 8.89vh;
+    border-radius: 7.8125vh;
+    position: relative;
+}
+#problem_card_selected .problem_card_text {
+    font-size: 9em;
+}
+#problem_card_selected_shadow {
+    mix-blend-mode: multiply;
+    height: 6.25vh;
+    aspect-ratio: 422 / 64;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    transform: translateY(50%);
+}
+.problem_arrow {
+    position: absolute;
+    height: 7.8125vh;
+    aspect-ratio: 58 / 80;
+}
+#problem_left_arrow {
+    left: calc(-7.8125% - 7.8125vh * 58 / 80);
+}
+#problem_right_arrow {
+    right: calc(-7.8125% - 7.8125vh * 58 / 80);;
+}
