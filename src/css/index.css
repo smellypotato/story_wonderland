@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    line-height: 1em;
+}
+* a {
+    text-decoration: none;
+}
+body {
+    height: 100vh;
+    font-family: Lato;
+    overflow: hidden;
+    font-size: 0.390625vh; /* 4px */
+    letter-spacing: 0.25em;
+}
+#root {
+    overflow: visible;
+    height: 100%;
+}
+.App {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.background_image {
+    background: center no-repeat;
+    background-size: cover;
+}
+.no_highlight {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.button_cursor { cursor: pointer }
+.title {
+    font-size: 18em;
+    text-align: center;
+    font-weight: 900;
+}
