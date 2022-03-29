@@ -1,0 +1,45 @@
+#home {
+    padding-top: 13.38vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2.93vh;
+}
+.button {
+    padding: 0.78vh 0.88vh;
+    height: 8vh;
+    /* width: 30.35vw; */
+    aspect-ratio: 437 / 82;
+    border-radius: 1.5625vh;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+#home_characters {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    margin-top: 9.375vh;
+}
+.home_character {
+    height: 28.89vh;
+    aspect-ratio: 197.74 / 295.85;
+}
+#home_grass {
+    width: 100%;
+    position: absolute;
+    bottom: 6.54vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#home_grass_line {
+    aspect-ratio: 41.45 / 35.25;
+    height: 3.44vh;
+}
+#home_grass_triangle {
+    aspect-ratio: 49 / 35;
+    height: 3.42vh;
+}
