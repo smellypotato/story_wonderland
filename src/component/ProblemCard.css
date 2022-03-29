@@ -1,0 +1,33 @@
+.problem_card {
+    height: 23.4375vh;
+    aspect-ratio: 190 / 240;
+    border-radius: 3.90625vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.34375vh 0;
+    row-gap: 5.83%;
+    overflow: visible;
+}
+.problem_card_icon {
+    height: 70.3125%;
+    aspect-ratio: 1;
+
+}
+.problem_card_text_box {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.problem_card_text {
+    font-size: 6em;
+    font-weight: 900;
+    line-height: 1.2em;
+    white-space: pre-wrap;
+}
+.problem_card_text::first-letter {
+    text-transform: uppercase;
+}

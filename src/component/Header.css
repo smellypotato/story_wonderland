@@ -1,0 +1,54 @@
+#header {
+    padding: 1.37vh 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+#header-user {
+    display: flex;
+    column-gap: 1.11vw;
+    align-items: center;
+}
+#header-user-icon {
+    height: 3.515625vh;
+    aspect-ratio: 28 / 36;
+}
+#header-user-text {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+#header-logo {
+    position: absolute;
+    transform: translateY(-2.93vh);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 18.4vh;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+}
+#header-logo-image {
+    background: url(../image/logo.png) no-repeat center;
+    background-size: contain;
+    width: 50%;
+    aspect-ratio: 103 / 78;
+    transform: translateY(-1.95vh);
+}
+
+#header-social {
+    display: flex;
+    column-gap: 1.67vw;
+    align-items: center;
+}
+.header-social-icon {
+    height: 4.6875vh;
+    aspect-ratio: 1;
+}

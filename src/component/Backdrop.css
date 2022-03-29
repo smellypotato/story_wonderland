@@ -1,0 +1,21 @@
+#backdrop {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -2;
+    transform: translateY(50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#backdrop_grass {
+    width: 122vw;
+    height: 108vh;
+    transform: translateX(-3.54vw);
+}
+#backdrop_ground {
+    width: 120%;
+    height: 50vh;
+    position: absolute;
+    top: 20%;
+}

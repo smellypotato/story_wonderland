@@ -1,0 +1,25 @@
+.button {
+    padding: 0.78vh 0.88vh;
+    height: 8vh;
+    aspect-ratio: 437 / 82;
+    border-radius: 1.5625vh;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: auto 1fr auto;
+}
+.button_main { background-color: var(--green_3) }
+.button_highlight { background-color: var(--other_7) }
+
+.button_knob {
+    height: 1.465vh;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.button_knob_main { background-color: var(--green_2) }
+.button_knob_highlight { background-color: var(--other_8) }
+.button_text {
+    line-height: 3.52vh;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+}

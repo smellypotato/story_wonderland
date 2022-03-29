@@ -1,0 +1,51 @@
+.solution_choice {
+    width: 12.7vh;
+    aspect-ratio: 130 / 145;
+    position: absolute;
+}
+.solution_choice_text {
+    font-size: 6em;
+    font-weight: bold;
+    padding: 0.78125vh 1.171875vh;
+    border-radius: 0.78125vh;
+    position: absolute;
+    left: 60%;
+    top: 5%;
+}
+
+#solution_choice_patience {
+    top: 25.27%;
+    left: min(26.94%, 21.25vw);
+}
+#solution_choice_faithfulness {
+    top: 24.23%;
+    left: min(48.15%, 38vw);
+}
+#solution_choice_love {
+    top: 36.48%;
+    left: min(9.5%, 7.5vw);
+}
+#solution_choice_kindness {
+    top: 42.76%;
+    left: min(30.9%, 24.375vw);
+}
+#solution_choice_goodness {
+    top: 37.39%;
+    left: min(58.45%, 46.1vw);
+}
+#solution_choice_joy {
+    top: 53.35%;
+    left: min(12.4%, 9.78vw);
+}
+/* #solution_choice_faithfulness {
+    top: 50%;
+    left: min(%, vw);
+} */
+#solution_choice_gentleness {
+    top: 66.54%;
+    left: min(28.6%, 22.57vw);
+}
+#solution_choice_peace {
+    top: 65.16%;
+    left: min(59.33%, 91.25vw);
+}

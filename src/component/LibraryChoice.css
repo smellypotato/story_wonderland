@@ -1,0 +1,37 @@
+.library_choice {
+    padding: 0.6vh;
+    border-radius: 7.8125vh;
+    display: grid;
+    grid-template-columns: 7.03125vh 1fr 7.03125vh;
+    column-gap: 5%;
+    align-items: center;
+}
+.library_choice:hover { background-color: var(--other_7) }
+.library_choice_text {
+    text-align: center;
+    font-size: 6em;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.library_choice_lock {
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.library_choice_lock_background {
+    height: 88.89%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.library_choice_lock_icon {
+    height: 58.4%;
+    aspect-ratio: 1;
+}
