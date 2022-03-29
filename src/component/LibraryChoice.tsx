@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import "./LibraryChoice.css";
 
-export const LibraryChoice = (props: { name: string, locked: boolean }) => {
+export const LibraryChoice = (props: { name: string, locked: boolean }) => {    
     return (
-        <div className="library_choice background_green_5 button_cursor">
+        <Link className="library_choice background_green_5 button_cursor" to="/character_selection">
             <div />
             <div className="library_choice_text color_other_1">{props.name}</div>
             { props.locked &&
@@ -12,6 +13,6 @@ export const LibraryChoice = (props: { name: string, locked: boolean }) => {
                     </div>
                 </div>
             }
-        </div>
+        </Link>
     )
 }
