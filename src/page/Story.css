@@ -1,0 +1,38 @@
+#story {
+    padding-top: 8.3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 6.74vh;
+}
+.story_type {
+    border-radius: 11.71875vh;
+    height: 40.53vh;
+    aspect-ratio: 415 / 517;
+    padding-top: 3.3203125vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 7.16%;
+}
+.story_type:hover {
+    background-color: var(--other_7);
+}
+.story_type_icon {
+    height: 55.7%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.story_type_icon_image {
+    width: 80%;
+    aspect-ratio: 1;
+}
+.story_type_text {
+    font-size: 9em;
+    text-align: center;
+    font-weight: 900;
+    line-height: 1.2em;
+}
