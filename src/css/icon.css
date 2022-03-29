@@ -1,0 +1,150 @@
+.icon_user {
+    background: url("../icon/user.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_facebook {
+    background: url("../icon/facebook.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_twitter {
+    background: url("../icon/twitter.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_instagram {
+    background: url("../icon/instagram.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_grass {
+    background: url("../icon/grass.svg") var(--bg_img_setting);
+    background-size: cover;
+    background-position: top;
+}
+.icon_grass_line {
+    background: url("../icon/grass_line.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_grass_triangle {
+    background: url("../icon/grass_triangle.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_ground {
+    background: url("../icon/ground.svg") var(--bg_img_setting);
+    background-size: cover;
+    background-position: top;
+}
+.icon_dove {
+    background: url("../icon/dove.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_quokka {
+    background: url("../icon/quokka.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_pelican {
+    background: url("../icon/pelican.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_squid {
+    background: url("../icon/squid.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_library {
+    background: url("../icon/library.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_low_self-esteem {
+    background: url("../icon/low_self-esteem.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_angry {
+    background: url("../icon/angry.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_confused {
+    background: url("../icon/confused.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_sad {
+    background: url("../icon/sad.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_unsafe {
+    background: url("../icon/unsafe.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_arrow_left {
+    background: url("../icon/arrow_left.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_arrow_right {
+    background: url("../icon/arrow_right.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_bush_left {
+    background: url("../icon/bush_left.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_bush_right {
+    background: url("../icon/bush_right.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_leaves {
+    background: url("../icon/leaves.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_tree {
+    background: url("../icon/tree.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_solution_patience {
+    background: url("../icon/solution/patience.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_solution_faithfulness {
+    background: url("../icon/solution/faithfulness.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_solution_love {
+    background: url("../icon/solution/love.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_solution_kindness {
+    background: url("../icon/solution/kindness.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_solution_goodness {
+    background: url("../icon/solution/goodness.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_solution_joy {
+    background: url("../icon/solution/joy.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_solution_gentleness {
+    background: url("../icon/solution/gentleness.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_solution_peace {
+    background: url("../icon/solution/peace.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+.icon_lock {
+    background: url("../icon/lock.svg") var(--bg_img_setting);
+    background-size: contain;
+}
+/* .icon_ {
+    background: url("../icon/.svg") var(--bg_img_setting);
+    background-size: contain;
+} */
+/* .icon_ {
+    background: url("../icon/.svg") var(--bg_img_setting);
+    background-size: contain;
+} */
+/* .icon_ {
+    background: url("../icon/.svg") var(--bg_img_setting);
+    background-size: contain;
+} */
+/* .icon_ {
+    background: url("../icon/.svg") var(--bg_img_setting);
+    background-size: contain;
+} */
